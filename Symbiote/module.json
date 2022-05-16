@@ -7,7 +7,7 @@
    "minimumCoreVersion": "9",
    "compatibleCoreVersion":"9",
    "manifest":"https://github.com/abrandon2718/Symbiote/blob/e35fb735f917e9920c112fcd63c906e72e3899ab/Symbiote/module.json",
-   "download":"",
+   "download":"https://github.com/abrandon2718/Symbiote/archive/refs/heads/main.zip",
    "packs": [
     {
       "name": "items",
