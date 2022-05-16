@@ -4,8 +4,10 @@
    "description": "Containing all features of the Symbiote Class",   
    "author": "Aaron Brandon",
    "version": "1.0.0",
-   "minimumCoreVersion": "0.9.12",
-   "compatibleCoreVersion":"0.9.2",
+   "minimumCoreVersion": "9",
+   "compatibleCoreVersion":"9",
+   "manifest":"https://github.com/abrandon2718/Symbiote/blob/e35fb735f917e9920c112fcd63c906e72e3899ab/Symbiote/module.json",
+   "download":"",
    "packs": [
     {
       "name": "items",
