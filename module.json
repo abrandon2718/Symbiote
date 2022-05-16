@@ -37,6 +37,10 @@
 			}
 		}
 	}
-  }
+  },
+  "url": "https://github.com/YourName/PF2e-Example",
+  "manifest": "https://raw.githubusercontent.com/YourName/PF2e-Example/master/module.json",
+  "download": "https://github.com/YourName/PF2e-Example/archive/refs/heads/main.zip"
+
 
 }
