@@ -38,9 +38,9 @@
 		}
 	}
   },
-  "url": "https://github.com/YourName/PF2e-Example",
-  "manifest": "https://raw.githubusercontent.com/YourName/PF2e-Example/master/module.json",
-  "download": "https://github.com/YourName/PF2e-Example/archive/refs/heads/main.zip"
+  "url": "https://github.com/abrandon2718/Symbiote",
+  "manifest": "https://raw.githubusercontent.com/abrandon2718/Symbiote/master/module.json",
+  "download": "https://github.com/abrandon2718/Symbiote/archive/refs/heads/main.zip"
 
 
 }
