@@ -3,9 +3,9 @@
    "title": "Symbiote",   
    "description": "Containing all features of the Symbiote Class",   
    "author": "Aaron Brandon",
-   "version": "1.0.0",
-   "minimumCoreVersion": "0.9.12",
-   "compatibleCoreVersion":"0.9.2",
+   "version": "1.0.1",
+   "minimumCoreVersion": "9",
+   "compatibleCoreVersion":"9",
    "packs": [
     {
       "name": "items",
