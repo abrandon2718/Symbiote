@@ -1,54 +1,49 @@
-{   
-   "id": "pf2e-symbiote-class",   
-   "title": "Symbiote",   
-   "description": "Containing all features of the Symbiote Class",   
-   "author": "Aaron Brandon",
-   "version": "1.0.3",
-   "compatibility": {
-      "minimum": "10",
-      "verified": "11"
-   },
-   "packs": [
+{
+  "id": "pf2e-symbiote-class",
+  "title": "Symbiote",
+  "description": "Containing all features of the Symbiote Class",
+  "authors": [
     {
-      "name": "items",
-      "label": "Symbiote Features",
-      "path": "packs/items.db",
-      "type": "Item",
-      "module": "Symbiote"
-    },
-    {
-      "name": "class",
-      "label": "Symbiote Class",
-      "path": "packs/class.db",
-      "type": "Item",
-      "module": "Symbiote"
+      "name": "Aaron B"
     }
   ],
-   "relationships": {
-      "systems": [
+  "relationships": {
+    "systems": [
       {
-         "id": "pf2e",
-         "type": "system",
-         "compatibility": {
-            "minimum": "4.12.0",
-            "verified": "5.6.2"
-	 }
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.12.0",
+          "verified": "4.12.9"
+        }
       }
-      ]
-    },
-  "flags": {
-  	"Symbiote": {
-		"pf2e-homebrew": {
-			"featTraits": {
-				"symbiote": "Symbiote",
-				"contagion": "contagion"
-			}
-		}
-	}
+    ]
   },
-  "url": "https://github.com/abrandon2718/Symbiote",
+   "packs": [
+    {
+      "label": "Symbiote Feats",
+      "name": "symbiote-feats",
+      "path": "packs/items.db",
+      "system": "pf2e",
+      "package": "pf2e-symbiote-class",
+      "private": false,
+      "type": "Item"
+    },
+    {
+      "label": "Symbiote Class",
+      "name": "symbiote-class",
+      "path": "packs/class.db",
+      "system": "pf2e",
+      "package": "pf2e-divinity-unbound",
+      "private": false,
+      "type": "Item"
+    }
+  ],
+  "version": "1.0.3",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
   "manifest": "https://raw.githubusercontent.com/abrandon2718/Symbiote/master/module.json",
   "download": "https://github.com/abrandon2718/Symbiote/archive/refs/heads/main.zip"
-
-
 }
